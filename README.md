@@ -1,127 +1,195 @@
-<h1 align="center">Hi, I'm Burak Büyükyüksel 👋</h1>
-
+<!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
 <p align="center">
-  <b>Senior Software Engineer</b> · Kraków, Poland<br/>
-  Real-time C++ for surgical robots by day, AI-powered products on a Raspberry Pi by night.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Burak%20B%C3%BCy%C3%BCky%C3%BCksel&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Senior%20Software%20Engineer%20%C2%B7%20Krak%C3%B3w%2C%20Poland&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
 </p>
 
 <p align="center">
-  <a href="https://burakbuyukyuksel.com"><img src="https://img.shields.io/badge/Website-burakbuyukyuksel.com-0A0A0A?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="https://linkedin.com/in/buyukyukselburak"><img src="https://img.shields.io/badge/LinkedIn-buyukyukselburak-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:contact@burakbuyukyuksel.com"><img src="https://img.shields.io/badge/Email-contact%40burakbuyukyuksel.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://burakbuyukyuksel.com">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Real-time+C%2B%2B20+for+surgical+robots+%F0%9F%A4%96;Building+AI-native+products+%F0%9F%A7%A0;LLM+pipelines+%C2%B7+Agents+%C2%B7+Full-stack;Self-hosting+everything+on+a+Raspberry+Pi+5+%F0%9F%8D%93;8%2B+years+%C2%B7+web+%C2%B7+mobile+%C2%B7+embedded+%C2%B7+AI" alt="Typing SVG"/>
+  </a>
 </p>
 
----
+<p align="center">
+  <a href="https://burakbuyukyuksel.com"><img src="https://img.shields.io/badge/Portfolio-burakbuyukyuksel.com-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/buyukyukselburak"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:contact@burakbuyukyuksel.com"><img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=bbuyukyuksel&style=for-the-badge&color=38BDF8&label=PROFILE+VIEWS" alt="Profile views"/>
+</p>
 
-### About me
+<!-- ═══════════════════════════  ABOUT  ═══════════════════════════ -->
+<h2>⚡ About me</h2>
 
-- 🤖 **Senior C++ Engineer at GlobalLogic** — building real-time control software for a remotely operated surgical robot (C++20, ROS2, RTI DDS, QNX) for **Asensus Surgical**. Before that: Kepler OS apps for **Amazon FireTV** and camera SDK work for **Verizon**.
-- 🏭 Spent 4+ years at **Otokar** shipping factory-floor products end to end: robotic quality control, computer vision, and plant-wide Covid-era vision systems.
-- 🧠 These days I build **AI-native products** on the side — LLM pipelines, agents, and the full-stack apps around them — self-hosted on a Raspberry Pi 5.
-- 🌍 8+ years across web, mobile, embedded and AI. I like it most when reliability actually matters.
+<table>
+<tr>
+<td width="58%" valign="top">
 
----
+```cpp
+struct Burak {
+    std::string role     = "Senior C++ Engineer @ GlobalLogic";
+    std::string location = "Kraków, Poland 🇵🇱";
+    int         years    = 8;
 
-### 🚀 What I'm building now
+    std::vector<std::string> day_job = {
+        "Surgical robotics — Asensus (C++20 · ROS2 · DDS · QNX)",
+        "FireTV on Kepler OS — Amazon (React Native · Kotlin)",
+        "Camera SDKs — Verizon (C++ · GStreamer · SWIG)",
+    };
+
+    std::vector<std::string> side_quests = {
+        "struggle.live",     // AI-gamified learning
+        "agentnewsie.live",  // multilingual LLM newsroom
+        "BeeScout",          // autonomous job hunter
+    };
+
+    std::string motto = "Reliability first, then ship it.";
+};
+```
+
+</td>
+<td width="42%" valign="top">
+
+- 🤖 Writing **safety-critical real-time C++** for a remotely operated surgical robot
+- 🏭 4+ years at **Otokar** shipping robotics & computer vision to the factory floor
+- 🥇 **1st place**, Otokar Changemakers: mask & temperature control on Jetson
+- 🧠 Building **AI-native products** end to end: LLM pipelines, agents, full-stack
+- 🍓 Everything self-hosted on a **Raspberry Pi 5** with Docker & NGINX
+- 💬 Ask me about **robotics, LLM agents, C++ build tooling**
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════  NOW BUILDING  ═══════════════════════════ -->
+<h2>🚀 What I'm building now</h2>
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://struggle.live">struGGle.live</a></h4>
-      <sub><img src="https://img.shields.io/badge/status-live-2ea44f?style=flat-square" alt="live"/></sub>
-      <p>AI-powered, gamified micro-learning. Give it any topic and get a personal roadmap with an editable plan graph, streamed lessons, interactive exercises, XP and streaks. Learn solo or in groups. <i>Turn the struggle into gg.</i></p>
-      <sub><b>Next.js · NestJS · PostgreSQL · Redis · OpenAI / Claude / Ollama · Docker</b></sub>
+    <td width="33%" valign="top" align="center">
+      <a href="https://struggle.live"><img src="https://img.shields.io/badge/struGGle.live-%F0%9F%8E%AE-8B5CF6?style=for-the-badge" alt="struGGle.live"/></a><br/>
+      <img src="https://img.shields.io/website?url=https%3A%2F%2Fstruggle.live&style=flat-square&label=status&up_message=live&up_color=2ea44f" alt="status"/>
+      <p align="left"><b>AI-powered, gamified micro-learning.</b> Give it any topic and get a personal roadmap with an editable plan graph, streamed lessons, interactive exercises, XP and streaks. Learn solo or in groups.<br/><i>Turn the struggle into gg.</i></p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt=""/>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Claude%20%7C%20OpenAI%20%7C%20Ollama-D97757?style=flat-square" alt=""/>
+      </p>
     </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://agentnewsie.live">AgentNewsie</a></h4>
-      <sub><img src="https://img.shields.io/badge/status-live-2ea44f?style=flat-square" alt="live"/></sub>
-      <p>Automated news pipeline: scrapes Poland-related news and X, then an LLM rewrites and translates every story into Polish, English, Turkish, Azerbaijani, Kazakh, Kyrgyz and Uzbek, and publishes it to Telegram and a public news site. Comes with an operator dashboard and a self-serve advertiser flow.</p>
-      <sub><b>Python · Selenium · LLMs · Next.js · MongoDB · Telegram · Raspberry Pi</b></sub>
+    <td width="33%" valign="top" align="center">
+      <a href="https://agentnewsie.live"><img src="https://img.shields.io/badge/AgentNewsie-%F0%9F%93%B0-0EA5E9?style=for-the-badge" alt="AgentNewsie"/></a><br/>
+      <img src="https://img.shields.io/website?url=https%3A%2F%2Fagentnewsie.live&style=flat-square&label=status&up_message=live&up_color=2ea44f" alt="status"/>
+      <p align="left"><b>A newsroom run by machines.</b> Scrapes Poland-related news and X, then an LLM rewrites and translates every story into <b>7 languages</b> (PL · EN · TR · AZ · KK · KY · UZ) and publishes to Telegram and a public news site. Includes an operator dashboard and a self-serve advertiser flow.</p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt=""/>
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt=""/>
+      </p>
     </td>
-    <td width="33%" valign="top">
-      <h4>🐝 BeeScout</h4>
-      <sub><img src="https://img.shields.io/badge/status-pre--alpha-lightgrey?style=flat-square" alt="pre-alpha"/></sub>
-      <p><i>Don't search, BeeScout.</i> A local-first, AI-powered job hunter. It scans the portals you pick, fills applications from your CV, and fixes its own automation recipes when a site changes. Nothing is sent without your approval. Bring your own AI key or run fully local with Ollama.</p>
-      <sub><b>Tauri (Rust) · React · TypeScript · Browser extension · Playwright</b></sub>
+    <td width="33%" valign="top" align="center">
+      <img src="https://img.shields.io/badge/BeeScout-%F0%9F%90%9D-F59E0B?style=for-the-badge" alt="BeeScout"/><br/>
+      <img src="https://img.shields.io/badge/status-pre--alpha-lightgrey?style=flat-square" alt="status"/>
+      <p align="left"><b>Don't search, BeeScout.</b> A local-first, AI-powered job hunter. It scans the portals you pick, fills applications from your CV, and <b>self-heals</b> its automation recipes when a site changes. Nothing is sent without your approval. Bring your own key or run fully local.</p>
+      <p align="left">
+        <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust" alt=""/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt=""/>
+        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt=""/>
+      </p>
     </td>
   </tr>
 </table>
 
----
-
-### 🛠️ Tech stack
-
-**Languages**<br/>
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-
-**Web & Mobile**<br/>
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Embedded & Robotics**<br/>
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![QNX](https://img.shields.io/badge/QNX-555555?style=flat-square)
-![RTI DDS](https://img.shields.io/badge/RTI_DDS-555555?style=flat-square)
-![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Yocto](https://img.shields.io/badge/Yocto-555555?style=flat-square)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![GStreamer](https://img.shields.io/badge/GStreamer-555555?style=flat-square)
-
-**AI & Vision**<br/>
-![LLM Agents](https://img.shields.io/badge/LLM_Agents-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Tooling & Infra**<br/>
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![Conan](https://img.shields.io/badge/Conan-6699CB?style=flat-square&logo=conan&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-### 🏆 Highlights from industry
-
-| Project | What it did | Stack |
-|---|---|---|
-| **Surgical robotics** · Asensus | Safety-critical control components and surgeon-behavior simulators for validating operations without hardware | C++20, ROS2, RTI DDS, QNX |
-| **FireTV on Kepler** · Amazon | Ported FireTV apps to Amazon's new OS from one shared codebase | React Native, TypeScript, Kotlin, C++17 |
-| **ROKOS** · Otokar | Robotic quality-control line: collision-free robot trajectories from 3D CAD data and digital twins | C++, image processing |
-| **Mask & temperature control** · Otokar | Entrance device detecting masks and body temperature. 🥇 1st place, Otokar Changemakers | YOLOv4, NVIDIA Jetson |
-| **Passenger counting** · Otokar | Thermal-camera passenger counting for buses at 90% accuracy | Thermal imaging, C++ |
-
----
-
-### 📂 Open-source & learning repos
-
-- [**training-cpp-build-tools**](https://github.com/bbuyukyuksel/training-cpp-build-tools): hands-on training material for modern C++ build tooling (CMake)
-- [**design-patterns**](https://github.com/bbuyukyuksel/design-patterns): classic design patterns in C++
-- [**swig-cpp-wrapper-example**](https://github.com/bbuyukyuksel/swig-cpp-wrapper-example): exposing C++ libraries to Python with SWIG
-- [**cpp-camera-calibration**](https://github.com/bbuyukyuksel/cpp-camera-calibration): camera calibration with OpenCV in C++
-- [**Jetson-NANO-Omron-D6T-44L-06-Driver**](https://github.com/bbuyukyuksel/Jetson-NANO-Omron-D6T-44L-06-Driver): thermal sensor driver for the Jetson Nano
-- [**Object-Detection-Global-Dataset-Converter**](https://github.com/bbuyukyuksel/Object-Detection-Global-Dataset-Converter): convert between object-detection dataset formats
-
----
+<!-- ═══════════════════════════  TECH STACK  ═══════════════════════════ -->
+<h2>🛠️ Tech arsenal</h2>
 
 <p align="center">
-  <sub>Always happy to talk about robotics, AI products, or self-hosting things on a Raspberry Pi. Say hi! 👋</sub>
+  <img src="https://skillicons.dev/icons?i=cpp,c,ts,py,rust,kotlin,go,cs&perline=8" alt="Languages"/><br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,nodejs,tailwind,postgres,mongodb,redis&perline=8" alt="Web"/><br/><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,raspberrypi,linux,arduino,tauri,qt&perline=8" alt="AI and embedded"/><br/><br/>
+  <img src="https://skillicons.dev/icons?i=docker,cmake,nginx,githubactions,git,bash,vim,vscode&perline=8" alt="Tooling"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2"/>
+  <img src="https://img.shields.io/badge/QNX-1F2937?style=for-the-badge" alt="QNX"/>
+  <img src="https://img.shields.io/badge/RTI_DDS-1F2937?style=for-the-badge" alt="RTI DDS"/>
+  <img src="https://img.shields.io/badge/Yocto-1F2937?style=for-the-badge" alt="Yocto"/>
+  <img src="https://img.shields.io/badge/GStreamer-1F2937?style=for-the-badge" alt="GStreamer"/>
+  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/Conan-6699CB?style=for-the-badge&logo=conan&logoColor=white" alt="Conan"/>
+</p>
+
+<!-- ═══════════════════════════  CAREER  ═══════════════════════════ -->
+<h2>🧭 Career path</h2>
+
+```text
+2016 ─┬─ Embedded Systems Lab, Kocaeli Univ.   C/C++ · image processing
+2017 ─┼─ Evstek                                MSP430 · ARM · Jetson · OpenCV
+2018 ─┼─ Havelsan                              Pardus Linux · PAM · LDAP
+2018 ─┼─ Otokar  ████████████████ 4.5 yrs      robotics · computer vision · Go/C#/C++
+2023 ─┼─ Luxoft                                C++ customer projects
+2023 ─┴─ GlobalLogic ► Asensus · Amazon · Verizon          ◄ you are here
+```
+
+<details>
+<summary><b>🏆 Industry highlights</b> (click to expand)</summary>
+<br/>
+
+| Project | Impact | Stack |
+|---|---|---|
+| **Surgical robotics** · Asensus | Safety-critical control components and surgeon-behavior simulators for validating operations without hardware | C++20 · ROS2 · RTI DDS · QNX |
+| **FireTV on Kepler** · Amazon | Ported FireTV apps to Amazon's new OS from a single shared codebase | React Native · TS · Kotlin · C++17 |
+| **Camera SDK bindings** · Verizon | Exposed ToF + RGB camera libs to Python; reproducible multi-arch Docker dev images | C++ · SWIG · GStreamer |
+| **ROKOS** · Otokar | Robotic QC line: collision-free trajectories from 3D CAD data and digital twins | C++ · 3D vision |
+| **Mask & temperature control** · Otokar | 🥇 1st place, Otokar Changemakers; deployed plant-wide | YOLOv4 · Jetson |
+| **Passenger counting** · Otokar | Thermal-camera passenger counting for buses at 90% accuracy | Thermal imaging · C++ |
+| **AGV under-vehicle inspection** · Otokar | Replaced manual under-vehicle quality checks with an AGV-mounted imaging system | C++ · Python · Django |
+
+</details>
+
+<!-- ═══════════════════════════  STATS  ═══════════════════════════ -->
+<h2>📊 GitHub stats</h2>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=bbuyukyuksel&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bbuyukyuksel&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=bbuyukyuksel&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub streak"/>
+</p>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=bbuyukyuksel&theme=tokyo-night&hide_border=true&area=true&radius=12" alt="Activity graph"/>
+</p>
+
+<!-- ═══════════════════════════  OPEN SOURCE  ═══════════════════════════ -->
+<h2>📂 Open-source & learning repos</h2>
+
+<p align="center">
+  <a href="https://github.com/bbuyukyuksel/training-cpp-build-tools"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=training-cpp-build-tools&theme=tokyonight&hide_border=true&border_radius=12" alt="training-cpp-build-tools"/></a>
+  <a href="https://github.com/bbuyukyuksel/design-patterns"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=design-patterns&theme=tokyonight&hide_border=true&border_radius=12" alt="design-patterns"/></a>
+  <a href="https://github.com/bbuyukyuksel/swig-cpp-wrapper-example"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=swig-cpp-wrapper-example&theme=tokyonight&hide_border=true&border_radius=12" alt="swig-cpp-wrapper-example"/></a>
+  <a href="https://github.com/bbuyukyuksel/Jetson-NANO-Omron-D6T-44L-06-Driver"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=Jetson-NANO-Omron-D6T-44L-06-Driver&theme=tokyonight&hide_border=true&border_radius=12" alt="Jetson thermal driver"/></a>
+</p>
+
+<!-- ═══════════════════════════  SNAKE  ═══════════════════════════ -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bbuyukyuksel/bbuyukyuksel/output/github-snake-dark.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/bbuyukyuksel/bbuyukyuksel/output/github-snake.svg"/>
+  </picture>
+</p>
+
+<!-- ═══════════════════════════  FOOTER  ═══════════════════════════ -->
+<p align="center">
+  <i>Always happy to talk robotics, AI products, or self-hosting things on a Raspberry Pi.</i><br/>
+  <b>Let's build something reliable. 🚀</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer"/>
 </p>
