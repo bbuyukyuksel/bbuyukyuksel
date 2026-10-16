@@ -62,42 +62,93 @@ struct Burak {
 <!-- ═══════════════════════════  NOW BUILDING  ═══════════════════════════ -->
 <h2>🚀 What I'm building now</h2>
 
+<!-- ─────────── struGGle.live ─────────── -->
+<a href="https://struggle.live"><img src="assets/struggle-banner.jpg" width="100%" alt="struGGle.live: turn any topic into a game"/></a>
+
 <table>
   <tr>
-    <td width="33%" valign="top" align="center">
-      <a href="https://struggle.live"><img src="https://img.shields.io/badge/struGGle.live-%F0%9F%8E%AE-8B5CF6?style=for-the-badge" alt="struGGle.live"/></a><br/>
-      <img src="https://img.shields.io/website?url=https%3A%2F%2Fstruggle.live&style=flat-square&label=status&up_message=live&up_color=2ea44f" alt="status"/>
-      <p align="left"><b>AI-powered, gamified micro-learning.</b> Give it any topic and get a personal roadmap with an editable plan graph, streamed lessons, interactive exercises, XP and streaks. Learn solo or in groups.<br/><i>Turn the struggle into gg.</i></p>
-      <p align="left">
+    <td width="36%" align="center" valign="middle">
+      <img src="assets/struggle-demo.gif" width="260" alt="struGGle.live demo"/>
+    </td>
+    <td width="64%" valign="middle">
+      <h3>🎮 <a href="https://struggle.live">struGGle.live</a> &nbsp;<img src="https://img.shields.io/website?url=https%3A%2F%2Fstruggle.live&style=flat-square&label=&up_message=live&up_color=2ea44f" alt="live"/></h3>
+      <p><b>One topic in. The AI plans the rest.</b></p>
+      <p>An AI-powered, gamified micro-learning platform. Type any topic, from Kubernetes to Roman history, and get a personal roadmap:</p>
+      <ul>
+        <li>🗺️ Editable <b>plan graph</b>: drag, connect and reorder the steps</li>
+        <li>⚡ <b>Streamed lessons</b> and interactive exercises</li>
+        <li>🔥 <b>XP, streaks</b> and a boss level at the end</li>
+        <li>👥 Learn solo or with <b>groups</b>, with a social feed and explore page</li>
+        <li>🧩 Multi-provider AI: <b>Claude, OpenAI or local Ollama</b></li>
+      </ul>
+      <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt=""/>
         <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt=""/>
-        <img src="https://img.shields.io/badge/Claude%20%7C%20OpenAI%20%7C%20Ollama-D97757?style=flat-square" alt=""/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Cucumber_BDD-23D96C?style=flat-square&logo=cucumber&logoColor=white" alt=""/>
       </p>
     </td>
-    <td width="33%" valign="top" align="center">
-      <a href="https://agentnewsie.live"><img src="https://img.shields.io/badge/AgentNewsie-%F0%9F%93%B0-0EA5E9?style=for-the-badge" alt="AgentNewsie"/></a><br/>
-      <img src="https://img.shields.io/website?url=https%3A%2F%2Fagentnewsie.live&style=flat-square&label=status&up_message=live&up_color=2ea44f" alt="status"/>
-      <p align="left"><b>A newsroom run by machines.</b> Scrapes Poland-related news and X, then an LLM rewrites and translates every story into <b>7 languages</b> (PL · EN · TR · AZ · KK · KY · UZ) and publishes to Telegram and a public news site. Includes an operator dashboard and a self-serve advertiser flow.</p>
-      <p align="left">
+  </tr>
+</table>
+
+<!-- ─────────── AgentNewsie ─────────── -->
+<table>
+  <tr>
+    <td width="64%" valign="middle">
+      <h3>📰 <a href="https://agentnewsie.live">AgentNewsie</a> &nbsp;<img src="https://img.shields.io/website?url=https%3A%2F%2Fagentnewsie.live&style=flat-square&label=&up_message=live&up_color=2ea44f" alt="live"/></h3>
+      <p><b>News written by machines, read by humans.</b></p>
+      <p>A fully automated newsroom for the people living in Poland. It reads the papers so you don't have to:</p>
+      <ul>
+        <li>🕵️ <b>Scrapes</b> Poland-related news sites and X search results (RSS, HTTP, Selenium)</li>
+        <li>✍️ An <b>LLM rewrites</b> each story and scores how critical it is</li>
+        <li>🌍 <b>Translates</b> it into 7 languages: 🇵🇱 PL · 🇬🇧 EN · 🇹🇷 TR · 🇦🇿 AZ · 🇰🇿 KK · 🇰🇬 KY · 🇺🇿 UZ</li>
+        <li>📣 <b>Publishes</b> to Telegram and a public news site; Instagram and Threads bots built</li>
+        <li>🧑‍💼 Operator dashboard and a <b>self-serve advertiser</b> flow</li>
+        <li>🍓 Runs 24/7 on a <b>Raspberry Pi</b> (ARM, CPU-only, Docker)</li>
+      </ul>
+      <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt=""/>
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt=""/>
       </p>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="https://img.shields.io/badge/BeeScout-%F0%9F%90%9D-F59E0B?style=for-the-badge" alt="BeeScout"/><br/>
-      <img src="https://img.shields.io/badge/status-pre--alpha-lightgrey?style=flat-square" alt="status"/>
-      <p align="left"><b>Don't search, BeeScout.</b> A local-first, AI-powered job hunter. It scans the portals you pick, fills applications from your CV, and <b>self-heals</b> its automation recipes when a site changes. Nothing is sent without your approval. Bring your own key or run fully local.</p>
-      <p align="left">
+    <td width="36%" align="center" valign="middle">
+      <a href="https://agentnewsie.live"><img src="assets/agentnewsie-demo.gif" width="320" alt="AgentNewsie demo"/></a>
+    </td>
+  </tr>
+</table>
+
+<!-- ─────────── BeeScout ─────────── -->
+<img src="assets/beescout-banner.jpg" width="100%" alt="BeeScout: smart scouting, smooth applying"/>
+
+<table>
+  <tr>
+    <td width="50%" valign="middle">
+      <h3>🐝 BeeScout &nbsp;<img src="https://img.shields.io/badge/-pre--alpha-lightgrey?style=flat-square" alt="pre-alpha"/></h3>
+      <p><b>Don't search, BeeScout.</b> Your AI-powered, autonomous job hunter.</p>
+      <ul>
+        <li>🧭 <b>Finds</b> jobs on the portals you choose</li>
+        <li>📝 <b>Fills</b> applications from a profile built from your CV</li>
+        <li>🔧 <b>Self-heals</b>: when a site changes, it proposes, tests and asks before fixing its recipe</li>
+        <li>✅ <b>Human in the loop</b>: nothing is sent without your approval</li>
+        <li>🔒 <b>Local-first</b>, bring your own key (Claude, OpenAI, Gemini…) or run fully local with Ollama</li>
+      </ul>
+      <p>
         <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust" alt=""/>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt=""/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt=""/>
       </p>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img src="assets/beescout-dashboard-concept.jpg" width="100%" alt="BeeScout dashboard concept"/>
+      <sub><i>Dashboard design concept</i></sub>
     </td>
   </tr>
 </table>
