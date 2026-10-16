@@ -89,6 +89,7 @@ struct Burak {
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Cucumber_BDD-23D96C?style=flat-square&logo=cucumber&logoColor=white" alt=""/>
       </p>
+      <p><a href="https://github.com/bbuyukyuksel/struggle-showcase"><img src="https://img.shields.io/badge/Showcase-struggle--showcase-8B5CF6?style=for-the-badge&logo=github" alt="struggle-showcase"/></a></p>
     </td>
   </tr>
 </table>
@@ -116,6 +117,7 @@ struct Burak {
         <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt=""/>
       </p>
+      <p><a href="https://github.com/bbuyukyuksel/agentnewsie-showcase"><img src="https://img.shields.io/badge/Showcase-agentnewsie--showcase-0EA5E9?style=for-the-badge&logo=github" alt="agentnewsie-showcase"/></a></p>
     </td>
     <td width="36%" align="center" valign="middle">
       <a href="https://agentnewsie.live"><img src="assets/agentnewsie-demo.gif" width="320" alt="AgentNewsie demo"/></a>
@@ -129,7 +131,7 @@ struct Burak {
 <table>
   <tr>
     <td width="50%" valign="middle">
-      <h3>🐝 BeeScout &nbsp;<img src="https://img.shields.io/badge/-pre--alpha-lightgrey?style=flat-square" alt="pre-alpha"/></h3>
+      <h3>🐝 <a href="https://github.com/bbuyukyuksel/beescout-showcase">BeeScout</a> &nbsp;<img src="https://img.shields.io/badge/-pre--alpha-lightgrey?style=flat-square" alt="pre-alpha"/></h3>
       <p><b>Don't search, BeeScout.</b> Your AI-powered, autonomous job hunter.</p>
       <ul>
         <li>🧭 <b>Finds</b> jobs on the portals you choose</li>
@@ -145,6 +147,7 @@ struct Burak {
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt=""/>
         <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt=""/>
       </p>
+      <p><a href="https://github.com/bbuyukyuksel/beescout-showcase"><img src="https://img.shields.io/badge/Showcase-beescout--showcase-F59E0B?style=for-the-badge&logo=github" alt="beescout-showcase"/></a></p>
     </td>
     <td width="50%" align="center" valign="middle">
       <img src="assets/beescout-dashboard-concept.jpg" width="100%" alt="BeeScout dashboard concept"/>
