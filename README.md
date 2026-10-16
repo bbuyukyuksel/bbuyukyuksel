@@ -162,9 +162,6 @@ struct Burak {
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=bbuyukyuksel&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub streak"/>
 </p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=bbuyukyuksel&theme=tokyo-night&hide_border=true&area=true&radius=12" alt="Activity graph"/>
-</p>
 
 <!-- ═══════════════════════════  OPEN SOURCE  ═══════════════════════════ -->
 <h2>📂 Open-source & learning repos</h2>
