@@ -219,7 +219,7 @@ struct Burak {
 
 <p align="center">
   <a href="https://github.com/bbuyukyuksel/training-cpp-build-tools"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=training-cpp-build-tools&theme=tokyonight&hide_border=true&border_radius=12" alt="training-cpp-build-tools"/></a>
-  <a href="https://github.com/bbuyukyuksel/design-patterns"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=design-patterns&theme=tokyonight&hide_border=true&border_radius=12" alt="design-patterns"/></a>
+  <a href="https://github.com/bbuyukyuksel/cpp-camera-calibration"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=cpp-camera-calibration&theme=tokyonight&hide_border=true&border_radius=12" alt="cpp-camera-calibration"/></a>
   <a href="https://github.com/bbuyukyuksel/swig-cpp-wrapper-example"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=swig-cpp-wrapper-example&theme=tokyonight&hide_border=true&border_radius=12" alt="swig-cpp-wrapper-example"/></a>
   <a href="https://github.com/bbuyukyuksel/Jetson-NANO-Omron-D6T-44L-06-Driver"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bbuyukyuksel&repo=Jetson-NANO-Omron-D6T-44L-06-Driver&theme=tokyonight&hide_border=true&border_radius=12" alt="Jetson thermal driver"/></a>
 </p>
